@@ -22,6 +22,26 @@ The following are the things I had to do in order to set up C++ on my computer a
 3. In order to run the programs, I had to install the MinGW compiler. I followed steps on several youtube videos, which can be found [here](https://www.youtube.com/watch?v=9VE7p-he4fA) and [here](https://www.youtube.com/watch?v=77v-Poud_io). 
 4. To write comments in C++ you either: (1) Put two slashes (//) followed by your comment; (2) If you want a block of comments, then write /* followed by your comments, and ending in */
 
+## Hello World Program
+This is an illustration of coding in C++ using the classic 'Hello World' example. 
+
+```
+#include <iostream>
+
+int main() {
+    std::cout << "Hello World!";
+    return 0;
+}
+```
+
+The #include allows us to use the contents of the iostream file. We need this file in order to use cout to print the contents of the main function. 
+
+All C++ programs include a main() function and the curly brackets indicate a code block - the beginning and end of the function. 
+
+std::cout prints the contents inside the quotation marks. It must be followed by << followed by the format string. We use the semicolon to indicate the end of the line. 
+
+Finally, return 0 indicates the end of the program. 
+
 ## Sources
 
 [1]IET, “C++: The Evolution of a Programming Language,” www.youtube.com, Mar. 01, 2019. https://www.youtube.com/watch?v=bKCHzFuPwl0 (accessed Mar. 09, 2023).
@@ -33,3 +53,5 @@ The following are the things I had to do in order to set up C++ on my computer a
 [4]J. Zitomer, “Why Local Fintech Engineers Use C++,” www.builtinchicago.org, Sep. 10, 2020. https://www.builtinchicago.org/2020/09/10/best-practices-programming-cpp (accessed Sep. 18, 2023).
 
 [5]D. Ramel, “When Milliseconds Make Millions: Why Wall Street Programmers Earn the Big Bucks -,” ADTmag, Jul. 29, 2011. https://adtmag.com/articles/2011/07/29/why-hft-programmers-earn-top-salaries.aspx (accessed Sep. 18, 2023).
+
+[6]“C++ ‘Hello, World!’ Program,” www.programiz.com. https://www.programiz.com/cpp-programming/examples/print-sentence
