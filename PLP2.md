@@ -1,4 +1,4 @@
-# Data Types and Naming Conventions
+## Data Types and Naming Conventions
 In C++, variables are declared in the following format: type variableName = value;
 
 All variables start with a lowercase letter or an underscore. Also, variable names (aka identifiers) cannot contain whitespace or special characters like !, #, %, etc. Additionally, identifiers can be written in camelCase or snake_case. For classes, the names should be nouns, must start with a capital letter, and cannot include underscores. These conventions are enforced by the compiler. 
@@ -74,6 +74,11 @@ C++ is both implicitly and explicitly typed, especially when it comes to convers
 
 In C++, non-constant objects are mutable, while constants are immutable. Finally, arithmetic (+, /, *, etc.), assignment (var = value), comparison (==, >, <, etc.), and logical (&&, ||, !) operators are allowed in C++. 
 
+## Scope, Lifetime, and Storage
+Scope refers to the area in the program where the variable is available for use. In C++ there are four types: local variables and global variables. Local variables are local to the function or block where they're initialized and cannot be accessed outside those limits. Global variables are available to the entire program and can be used in all functions. 
+
+Lifetime refers to the length of time the variable occupies space in memory. Variables can have static, automatic, or dynamic lifetime. Objects/variables with static lifetime survive as long as the program runs. On the other hand, objects/variables with dynamic lifetime (made using the **new** operator in C++) are stored in memoryy until they are removed by the programmer, using the **delete** operator. Variables with dynamic lifetime are stored in the heap section of the system's memory. Finally, objects/variables declared inside a block of function (i.e. local variables) have automatic lifetime. They come into being when the function is called, and are deleted when the function is executed. 
+
 ## Performing Operations 
 Mixed type operations are allowed but only under certain conditions. For example, operations performed between numbers, such as ints, floats, and doubles are appropriate in C++ because the compiler will perform conversions in order to make the calculations possible. Additionally, C++ will support operations between ints and chars, by converting the character to its numerical ASCII representation. 
 
@@ -138,3 +143,7 @@ return 0;
 [14]“CMPS 350 Lecture Notes - Names, Bindings, Type & Scope,” Csub.edu, 2023. https://www.cs.csub.edu/~melissa/cs350-f15/notes/notes05.html#top (accessed Sep. 28, 2023).
 
 [15]“Type Conversion in C++,” GeeksforGeeks, Oct. 22, 2018. https://www.geeksforgeeks.org/type-conversion-in-c/
+
+[16]H. Agarwal, “Scope of Variables in C++,” GeeksforGeeks, Sep. 14, 2023. https://www.geeksforgeeks.org/scope-of-variables-in-c/# (accessed Oct. 03, 2023).
+
+[17]A. Chandra, “Scope, Visibility and Lifetime of a Variable in C,” Scaler Topics, Mar. 22, 2022. https://www.scaler.com/topics/c/scope-visibility-lifetime-of-variable-in-c/ (accessed Oct. 03, 2023).
