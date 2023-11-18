@@ -1,5 +1,3 @@
-# Functions and Loops
-
 ## Overview of C++ Functions
 Every C++ program has at least one function, known as main(). A function consists of a header containing its name, return type (the data type of the value that is returned), parameters, and the body of the function - statements that are executed when the function is called. 
 
@@ -21,7 +19,7 @@ While there are no rules about where a function has to be placed, the function h
 When it comes to returning, functions can only return one value at a time. We can get around this issue by using the tuple of pair library in C++. A tuple is an object capable of holding multiple values, and they can all be of different data types. A pair performs a similar function but can only hold two values. The syntax for using both methods is as follows.
 
 **Tuple**
-- #include<tuple>
+- #include tuple
   - tuple <dataType1, dataType2, … dataTypeN> functionName(dataType parameter1, dataType parameter2, … dataType parameter N) {
     - Statements;
     - return make_tuple(arguments); }
@@ -55,7 +53,29 @@ On the other hand, pass by reference allows the function to change the parameter
 ## Loops
 C++ has three types of loops: while, do/while, and for loops. The Do/While loop executes the loop statements once, before checking if the condition is True, and will continue the loop for as long as the condition is True. I have provided code showing the syntax and requirements for different kinds of loops. 
 
+```
+int loops(int sum){
+    //illustrates the different types of loops in C++
 
+    //increments the variable sum (the value of sum is 5 before the loop begins)
+    for (int i = 0; i < 5; i++) {
+        sum += i;
+    }
+    cout << sum << endl;
 
+    //prints all the numbers between 1 and 8
+    int i = 1;
+    while (i<9) {
+        cout << i << endl;
+        i++;
+    }
 
+    double j = 20;
+    //the do/while loop halves the quotient as long as it's greater than 2
+    do {
+        j = j/2;
+        cout << j << endl;
+    } while (j>2);
 
+}
+```
