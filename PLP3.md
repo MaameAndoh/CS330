@@ -81,32 +81,32 @@ int loops(int sum){
 ```
 
 ## Sources
-[1]Tutorialspoint, “C++ Functions ,” www.tutorialspoint.com. https://www.tutorialspoint.com/cplusplus/cpp_functions.htm
+[1]Tutorialspoint, “C++ Functions ,” www.tutorialspoint.com. https://www.tutorialspoint.com/cplusplus/cpp_functions.htm 
 
-[2]J. Germain, “C Programming - Functions,” users.cs.utah.edu. https://users.cs.utah.edu/~germain/PPS/Topics/C_Language/c_functions.html#:~:text=The%20order%20of%20functions%20inside (accessed Nov. 18, 2023).
+[2]J. Germain, “C Programming - Functions,” users.cs.utah.edu. https://users.cs.utah.edu/~germain/PPS/Topics/C_Language/c_functions.html#:~:text=The%20order%20of%20functions%20inside (accessed Nov. 18, 2023). 
 
-[3]C. Fontanella, “How to Call a Function in C++,” blog.hubspot.com, Jun. 26, 2023. https://blog.hubspot.com/website/call-a-function-in-c#how (accessed Nov. 18, 2023).
+[3]C. Fontanella, “How to Call a Function in C++,” blog.hubspot.com, Jun. 26, 2023. https://blog.hubspot.com/website/call-a-function-in-c#how (accessed Nov. 18, 2023). 
 
-[4]GeeksForGeeks, “Functions in C++,” GeeksforGeeks, Jun. 20, 2015. https://www.geeksforgeeks.org/functions-in-cpp/# (accessed Nov. 18, 2023).
+[4]GeeksForGeeks, “Functions in C++,” GeeksforGeeks, Jun. 20, 2015. https://www.geeksforgeeks.org/functions-in-cpp/# (accessed Nov. 18, 2023). 
 
-[5]Udacity, “Developer’s Guide to C++ Function Parameters,” Udacity, Sep. 13, 2021. https://www.udacity.com/blog/2021/09/developers-guide-to-cpp-function-parameters.html
+[5]Udacity, “Developer’s Guide to C++ Function Parameters,” Udacity, Sep. 13, 2021. https://www.udacity.com/blog/2021/09/developers-guide-to-cpp-function-parameters.html 
 
-[6]“Functions,” cplusplus.com. https://cplusplus.com/doc/tutorial/functions/
+[6]“Functions,” cplusplus.com. https://cplusplus.com/doc/tutorial/functions/ 
 
-[7]N. Thakur, “Returning Multiple Values from a Function Using Tuple and Pair in C++,” www.tutorialspoint.com, Jul. 30, 2019. https://www.tutorialspoint.com/returning-multiple-values-from-a-function-using-tuple-and-pair-in-cplusplus (accessed Nov. 18, 2023).
+[7]N. Thakur, “Returning Multiple Values from a Function Using Tuple and Pair in C++,” www.tutorialspoint.com, Jul. 30, 2019. https://www.tutorialspoint.com/returning-multiple-values-from-a-function-using-tuple-and-pair-in-cplusplus (accessed Nov. 18, 2023). 
 
-[8]J. Chen and R. Guo, “Stack and Heap Memory,” courses.engr.illinois.edu. https://courses.engr.illinois.edu/cs225/fa2022/resources/stack-heap/#:~:text=stack%20%3A%20stores%20local%20variables (accessed Nov. 18, 2023).
+[8]J. Chen and R. Guo, “Stack and Heap Memory,” courses.engr.illinois.edu. https://courses.engr.illinois.edu/cs225/fa2022/resources/stack-heap/#:~:text=stack%20%3A%20stores%20local%20variables (accessed Nov. 18, 2023). 
 
-[9]D. Calvanese, “Lifetime of Local Variables,” www.inf.unibz.it, 2005. https://www.inf.unibz.it/~calvanese/teaching/04-05-ip/lecture-notes/uni03/node17.html#:~:text=The%20lifetime%20of%20a%20variable
+[9]D. Calvanese, “Lifetime of Local Variables,” www.inf.unibz.it, 2005. https://www.inf.unibz.it/~calvanese/teaching/04-05-ip/lecture-notes/uni03/node17.html#:~:text=The%20lifetime%20of%20a%20variable 
 
-[10]R. Klein, “The C++ Call Stack,” www.youtube.com, Jul. 11, 2019. https://www.youtube.com/watch?v=uG_JOJgwbco (accessed Nov. 18, 2023).
+[10]R. Klein, “The C++ Call Stack,” www.youtube.com, Jul. 11, 2019. https://www.youtube.com/watch?v=uG_JOJgwbco (accessed Nov. 18, 2023). 
 
-[11]Learn C++, “20.2 — The Stack and the Heap ,” www.learncpp.com, Sep. 11, 2023. https://www.learncpp.com/cpp-tutorial/the-stack-and-the-heap/
+[11]Learn C++, “20.2 — The Stack and the Heap ,” www.learncpp.com, Sep. 11, 2023. https://www.learncpp.com/cpp-tutorial/the-stack-and-the-heap/ 
 
-[12]P. Forogh, “C++ Tutorial - Loops In C++ [For Loop, While Loop, Do While Loop],” www.youtube.com, Apr. 27, 2020. https://www.youtube.com/watch?v=jNl5gJ_xSNQ
+[12]P. Forogh, “C++ Tutorial - Loops In C++ [For Loop, While Loop, Do While Loop],” www.youtube.com, Apr. 27, 2020. https://www.youtube.com/watch?v=jNl5gJ_xSNQ 
 
-[13]S. Goyal, “Find in String C++ | Examples to Find Substrings & More! // Unstop (formerly Dare2Compete),” unstop.com, Nov. 09, 2023. https://unstop.com/blog/find-in-string-cpp
+[13]S. Goyal, “Find in String C++ | Examples to Find Substrings & More! // Unstop (formerly Dare2Compete),” unstop.com, Nov. 09, 2023. https://unstop.com/blog/find-in-string-cpp 
 
-[14]W3schools, “C++ While Loop,” W3schools.com, 2019. https://www.w3schools.com/cpp/cpp_while_loop.asp
+[14]W3schools, “C++ While Loop,” W3schools.com, 2019. https://www.w3schools.com/cpp/cpp_while_loop.asp 
 
-[15]L. Boxer, “Side Effects,” purple.niagara.edu. https://purple.niagara.edu/boxer/essays/prog/side-eff.htm#:~:text=Other%20ways%20in%20which%20side (accessed Nov. 18, 2023).
+[15]L. Boxer, “Side Effects,” purple.niagara.edu. https://purple.niagara.edu/boxer/essays/prog/side-eff.htm#:~:text=Other%20ways%20in%20which%20side (accessed Nov. 18, 2023). 
