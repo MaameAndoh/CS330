@@ -41,21 +41,19 @@ double multiply(double num1, double num2) {
 
 int recursion (int factNum) {
     //calculates and returns the factorial of 5
-    int res;
-    if (factNum >= 1) {
-        res = factNum * recursion(factNum-1);
+    if (factNum == 1) {
+        return factNum;
+    } else {
+        return factNum * recursion(factNum-1);
     }
-    return res;
 
-    /* 5 * 4 * 3 * 2 * 1 = 120
-    */
 }
 
-std::pair<string,string> splitString(string str) {
+pair<string,string> splitString(string& str) {
     //take a string, split into two strings, return both
     string split1 = str.substr(0, 4);
     string split2 = str.substr(4, 3);
-    return std::make_pair(split1, split2);
+    return make_pair(split1, split2);
 }
 
 int comparePass(int x) {
@@ -93,11 +91,15 @@ int main() {
 
     //calls the splitString function to split the string into two sections
     string str = "Goodbye";
-    string str1, str2 = splitString(str);
+    pair<string, string> strResult = splitString(str);
+
+    string str1 = strResult.first;
+    string str2 = strResult.second;
+
     cout << "We can split " << str << " into " << str1 << " and " << str2 << endl;
-
+    
     cout << endl;
-
+    
     //demonstrates C++'s call by value/reference properties
     int x = 20;
     int changeX = comparePass(x);
